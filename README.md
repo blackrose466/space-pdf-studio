@@ -29,10 +29,6 @@
 | ℹ️ **Metadata** | View PDF file information |
 | 📊 **Batch** | Process entire folders |
 
-## 🎨 Color Gradient
-Beautiful vertical gradient from `#FF2CDF` (Pink) to `#0014FF` (Blue)
-
----
 
 ## 📦 Installation
 
@@ -49,7 +45,7 @@ Beautiful vertical gradient from `#FF2CDF` (Pink) to `#0014FF` (Blue)
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/space-pdf-studio.git
+git clone https://github.com/blackrose466/space-pdf-studio.git
 cd space-pdf-studio
 
 # Install dependencies
@@ -57,3 +53,10 @@ pip install -r requirements.txt
 
 # Run the application
 python pdf_studio.py
+
+
+```bash
+#if you want exe file then
+#download pdf_studio.py and locate in cmd
+pip install pyinstaller
+pyinstaller --onefile --windowed --name "Space PDF Studio" pdf_studio.py
